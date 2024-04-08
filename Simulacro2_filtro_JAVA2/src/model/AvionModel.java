@@ -58,7 +58,7 @@ public class AvionModel implements CRUD {
                 Avion objAvion = new Avion();
                 objAvion.setId(objResult.getInt("id"));
                 objAvion.setModelo(objResult.getString("modelo"));
-                objAvion.setCapacidad(objResult.getInt("capaciodad"));
+                objAvion.setCapacidad(objResult.getInt("capacidad"));
 
                 listaAviones.add(objAvion);
             }

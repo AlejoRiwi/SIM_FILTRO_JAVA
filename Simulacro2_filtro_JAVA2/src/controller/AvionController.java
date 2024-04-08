@@ -32,7 +32,7 @@ public class AvionController {
     }
 
     public static String getAll(List<Object> lisObject) {
-        String list = " --- Lista de aviones --- ";
+        String list = " --- Lista de aviones ---\n";
         for (Object obj : lisObject) {
             Avion objAvion = (Avion) obj;
             list += objAvion.toString() + "\n";
